@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: url(images/เชฟ\ 2.png) no-repeat;
+    background-color: rgb(232, 236, 241);
+}
+
+.contact {
+    display: flex;
+    margin: 0 5rem;
+    margin-top: 2rem;
+    justify-content: right;
+}
+
+.contact div {
+    display: flex;
+    margin: 0 1rem;
+}
+
+.tele {
+    color: white;
+}
+
+.help a {
+    color: white;
+    display: inline-flex;
+    margin-right: 1rem;
+}
+
+.social-icon a {
+    color: white;
+    display: inline-flex;
+    margin: .3rem .5rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: .75rem 8%;
+}
+
+.menu nav {
+    margin-top: 20px;
+}
+
+.menu nav a {
+    display: inline-flex;
+    margin: 0 1rem;
+    color: white;
+}
+
+.menu nav .input {
+    display: inline-flex;
+    padding: .5rem;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.menu .logo {
+    display: inline-block; 
+    vertical-align: middle; 
+    font-size: 1.5rem;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: .75rem 8%;
+}
+
+.title {
+    display: inline-block;
+    margin-top: 8%;
+    color: white;
+}
+
+.title h1 {
+    font-size: 5rem;
+}
+
+.title p {
+    font-size: 1rem;
+}
+
+.title .btn-1 {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    transition: 0.75s;
+}
+
+.title .btn-2 {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    background-color: white;
+    color: orange;
+    border-radius: 5px;
+    transition: 0.75s;
+}
+
+.title .btn-1:hover {
+    transform: scale3d(1.03);
+    background-color: white;
+    color:orange;
+}
+
+.title .btn-2:hover {
+    transform: scale3d(1.03);
+    background-color: rgb(0, 71, 165);
+    color: white;
+}
+.title-img img {
+    border-radius: 30px;
+    width: 18vw;
+    margin: 0 5rem;
+}
+
+.blog {
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+    padding: 2rem 8%;
+    background-color: rgb(232, 236, 241);
+}
+
+.blog-title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.75rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.blog-con {
+    display: grid;
+    margin-bottom: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.blog-item {
+    background-color: white;
+    border-radius: 7.5px;
+    margin: .75rem;
+    padding: 3rem;
+} 
+
+.blog-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-item h4 {
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+
+.blog-item p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.blog-item img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.blog-item a {
+    display: flex   ;
+    justify-content: center;
+    margin: 2rem auto 0;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 0.75s;
+}
+
+
+.blog-item a:hover {
+    transform: scale3d(1.03);
+    background-color: black;
+    color: white;
+}
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.footer-top-con {
+    display: grid;
+    padding: .75rem 8%;
+    grid-template-columns: .3fr .5fr .2fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date {
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-child(2) h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-top-item:nth-child(3) h4 {
+    margin-bottom: 1rem;
+}
+
+.contacr-f a {
+    color: white;
+}
